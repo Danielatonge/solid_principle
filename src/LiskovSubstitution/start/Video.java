@@ -10,5 +10,6 @@ public class Video {
 
     public void playRandomAdvert() throws Exception {
         /* play an advert*/
+        System.out.println("Playing Advert");
     }
 }

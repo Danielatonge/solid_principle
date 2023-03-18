@@ -8,9 +8,11 @@ import java.util.List;
  */
 
 /*
- * Consider classes Video and PremiumVideo, PremiumVideo inheriting from Video
+ * Context/Questions:
+ * Consider classes Video and PremiumVideo. Every PremiumVideo is a Video.
+ * However, PremiumVideos do not show advertisement.
  * 1. How is Liskov Substitution violated in this case
- * 2. How can we fix this issue
+ * 2. Modify Classes to Satisfy LSP
  */
 
 

@@ -1,17 +1,19 @@
 package OpenClosed.start;
 
-/* GOAL: Classes should be open for extension,
+/* GOAL:
+ * Components should be open for extension,
  * closed for modification
  */
 
 /*
+ * Context:
  * Consider a class FileGenerator. Aside from printing the report to the console,
  * we wish to generate the report in various file formats TXT, RTF, PDF.
  */
 
 /*
  * Questions:
- * What is really wrong?
+ * Add functionality to generate JPEG files without violating the OCP
  * */
 public class FileGenerator {
 

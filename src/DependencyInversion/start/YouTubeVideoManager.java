@@ -1,9 +1,6 @@
 package DependencyInversion.start;
 
-/*
- * What will happen when you start dealing with different
- * Video Managers?
- * */
+
 public class YouTubeVideoManager {
     private double duration;
     private int numberOfViews;
